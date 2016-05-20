@@ -1,0 +1,3 @@
+* Redux Location
+
+This project will parse all variables from the URL/location, including the path, the search/query string, and the hash string and store them in a Redux store. Any key/value pairs can be set in either the search or hash string. All parts of the path are split into parts on the "/" character and stored under the "path" key of the returned object.
